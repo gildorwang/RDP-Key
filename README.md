@@ -9,5 +9,13 @@ With this script you can totally get rid of the annoying floating bar on top of 
 * Alt-CapsLock: Switch between 2 most recent RDP windows
 * Alt-Shift-CapsLock: Restore fullscreen RDP into window mode
 
+## Script versions
+Two script versions are included. Use the matching main script and include file together:
+
+* **AutoHotkey v1:** `RDPKey.ahk` with `common.ahk`
+* **AutoHotkey v2:** `RDPKeyV2.ahk` with `commonV2.ahk`
+
+Keep each pair in the same folder; do not mix files between versions. The v2 script requires AutoHotkey v2. When running the v2 script directly, keep `RDPKey16.ico` in the same folder as well. The compiled v2 executable is `RDPKeyV2.exe`.
+
 ## Download
 Find the latest release [here](https://github.com/gildorwang/RDP-Key/releases/latest).
